@@ -1,0 +1,11 @@
+.DS_Store
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+# 분석용으로 받은 바이너리와 디컴파일 결과는 저장소에 넣지 않는다
+research/
+*.exe
+*.zip
+build/
+tools/bench/cardbench/target/
