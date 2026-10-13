@@ -1,0 +1,11 @@
+[package]
+name = "cardbench"
+version = "0.1.0"
+edition = "2024"
+
+# Path dependencies on a Cardinal checkout; tools/bench/run.sh clones it into build/cardinal.
+[dependencies]
+search-cache = { path = "../../../build/cardinal/search-cache" }
+search-cancel = { path = "../../../build/cardinal/search-cancel" }
+
+[workspace]
